@@ -5,8 +5,14 @@ $base-color: #777;
 $secondary-color: #80e8d1;
 $tertiary-color: #51ddfc;
 
+$default-btn: $tertiary-color;
+$error-btn:  #e4757a;
+$info-btn: #927bc1;
+$success-btn: #63cc82;
+$warning-btn:  #fd7856;
+
 //MEDIA QUERIES VARIABLES
-$brk-p: "(min-width: 768px)";
+$brk-s: "(min-width: 768px)";
 
 
 // LAYOUT VARIABLES

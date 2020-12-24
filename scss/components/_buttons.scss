@@ -1,29 +1,31 @@
 .btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color: $btn-color;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-  }
   
-  .default {
-    background-color: #51ddfc;
-  }
   
-  .error {
-    background-color: #e4757a;
-  }
-  
-  .info {
-    background-color: #927bc1;
-  }
-  
-  .success {
-    background-color: #63cc82;
-  }
-  
-  .warning {
-    background-color: #fd7856;
-  }
+      &.default {
+        @include background-color($tertiary-color);
+      }
+      
+      &.error {
+        @include background-color($error-btn);
+      }
+      
+      &.info {
+        @include background-color($info-btn);
+      }
+      
+      &.success {
+        @include background-color($success-btn);
+      }
+      
+      &.warning {
+        @include background-color($warning-btn);
+      }
+
+}
