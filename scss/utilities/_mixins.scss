@@ -2,3 +2,13 @@
     background-color: $color;
 
 }
+
+@mixin img-layout($display, $margin, $margin, $margin-top, $max-width, $max-height) {
+    display: $display;
+    margin-left: $margin;
+    margin-right: $margin;
+    margin-top: $margin-top;
+    max-width: $max-width; 
+    max-height: $max-height;
+
+}
