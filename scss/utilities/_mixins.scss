@@ -1,12 +1,12 @@
-@mixin button-background($color) {
+@mixin background-color($color) {
     background-color: $color;
 
 }
 
-@mixin img-layout($display, $margin, $margin, $margin-top, $max-width, $max-height) {
+@mixin img-layout($display, $margin-l, $margin-r, $margin-top, $max-width, $max-height) {
     display: $display;
-    margin-left: $margin;
-    margin-right: $margin;
+    margin-left: $margin-l;
+    margin-right: $margin-r;
     margin-top: $margin-top;
     max-width: $max-width; 
     max-height: $max-height;

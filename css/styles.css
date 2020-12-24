@@ -380,8 +380,355 @@ template {
   display: none;
 }
 
+/* line 3, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/base/_typography.scss */
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+/* line 9, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/base/_typography.scss */
+p {
+  line-height: 1.45em;
+}
+
+/* line 13, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/base/_typography.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 20, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/base/_typography.scss */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+/* line 25, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/base/_typography.scss */
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+/* line 30, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/base/_typography.scss */
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+/* line 35, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/base/_typography.scss */
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
+}
+
 /* ============================================= */
 /* Components Imports */
 /* ============================================= */
+/* line 1, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_buttons.scss */
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+/* line 11, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_buttons.scss */
+.btn.default {
+  background-color: #51ddfc;
+}
+
+/* line 15, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_buttons.scss */
+.btn.error {
+  background-color: #e4757a;
+}
+
+/* line 19, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_buttons.scss */
+.btn.info {
+  background-color: #927bc1;
+}
+
+/* line 23, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_buttons.scss */
+.btn.success {
+  background-color: #63cc82;
+}
+
+/* line 27, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_buttons.scss */
+.btn.warning {
+  background-color: #fd7856;
+}
+
+/* line 1, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_forms.scss */
+.form {
+  flex-basis: 100%;
+}
+
+/* line 5, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_forms.scss */
+.input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
+}
+
+/* line 14, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_forms.scss */
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* line 1, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_navigation.scss */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 7, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_navigation.scss */
+.nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+}
+
+/* line 18, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_navigation.scss */
+.nav-link:hover {
+  color: #fff;
+  background-color: #58e1c1;
+}
+
+/* line 1, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_images.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 5, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_images.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+/* line 11, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_images.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.container {
+  padding: 0 10px;
+}
+
+/* line 5, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+/* line 11, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* line 19, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+/* line 23, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+/* line 27, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+/* line 31, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+/* line 35, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+/* line 39, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+/* line 43, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+/* line 47, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+/* line 51, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+/* line 55, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+/* line 59, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+/* line 63, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 67, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_grid.scss */
+.card {
+  flex-basis: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 3, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 10, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 16, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .row {
+    flex-direction: row;
+  }
+  /* line 20, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+  /* line 27, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+  /* line 31, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-1 {
+    flex-basis: 8.33%;
+  }
+  /* line 35, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-2 {
+    flex-basis: 16.67%;
+  }
+  /* line 39, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-3 {
+    flex-basis: 25.00%;
+  }
+  /* line 43, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-4 {
+    flex-basis: 33.33%;
+  }
+  /* line 47, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-5 {
+    flex-basis: 41.67%;
+  }
+  /* line 51, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-6 {
+    flex-basis: 50.00%;
+  }
+  /* line 55, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-7 {
+    flex-basis: 58.33%;
+  }
+  /* line 59, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-8 {
+    flex-basis: 66.67%;
+  }
+  /* line 63, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-9 {
+    flex-basis: 75.00%;
+  }
+  /* line 67, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-10 {
+    flex-basis: 83.33%;
+  }
+  /* line 71, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-11 {
+    flex-basis: 91.67%;
+  }
+  /* line 75, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .col-12 {
+    flex-basis: 100%;
+  }
+  /* line 79, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 85, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
+  /* line 89, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 93, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  /* line 97, ../../Alex/Team TreeHouse/Coding/GitHub/TechDegree-Project-4/scss/components/_media-queries.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
